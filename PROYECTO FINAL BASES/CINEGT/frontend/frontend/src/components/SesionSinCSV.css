@@ -1,0 +1,67 @@
+.sesion-sin-csv-container {
+    padding: 20px;
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  .sesion-sin-csv-container h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .back-to-menu-button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .back-to-menu-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .sesion-sin-csv-container form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .sesion-sin-csv-container label {
+    font-weight: bold;
+    color: #555;
+    text-align: left;
+  }
+  
+  .sesion-sin-csv-container input[type="number"],
+  .sesion-sin-csv-container input[type="datetime-local"] {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .sesion-sin-csv-container button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .sesion-sin-csv-container button:hover {
+    background-color: #0056b3;
+  }
+  
+  .sesion-sin-csv-container p {
+    color: green;
+    font-weight: bold;
+  }
+  

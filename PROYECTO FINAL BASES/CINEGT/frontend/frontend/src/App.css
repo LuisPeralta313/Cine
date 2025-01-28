@@ -1,0 +1,94 @@
+/* App.css */
+/* Importa los estilos de slick-carousel */
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .App {
+    text-align: center;
+  }
+  
+  .form-container {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    margin: auto;
+  }
+  
+  h2 {
+    margin-bottom: 1rem;
+    color: #333;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+    margin-top: 1rem;
+    color: #555;
+  }
+  
+  input[type="email"],
+  input[type="password"],
+  input[type="text"],
+  select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 1.5rem;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  .error-message {
+    color: red;
+    font-size: 14px;
+    margin-top: 1rem;
+  }
+  
+  .success-message {
+    color: green;
+    font-size: 14px;
+    margin-top: 1rem;
+  }
+  
+  .toggle-button {
+    background: none;
+    border: none;
+    color: #007bff;
+    font-size: 14px;
+    cursor: pointer;
+    text-decoration: underline;
+    margin-top: 1rem;
+  }
+  
+  .toggle-button:hover {
+    color: #ffffff;
+  }
+  

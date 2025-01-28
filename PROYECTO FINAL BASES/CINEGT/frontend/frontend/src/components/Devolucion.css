@@ -1,0 +1,66 @@
+.devolucion-container {
+    padding: 20px;
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  .devolucion-container h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .back-button {
+    margin-bottom: 15px;
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .back-button:hover {
+    background-color: #218838;
+  }
+  
+  .devolucion-container form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .devolucion-container label {
+    font-weight: bold;
+    color: #555;
+    text-align: left;
+  }
+  
+  .devolucion-container input[type="number"] {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .devolucion-container button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .devolucion-container button:hover {
+    background-color: #0056b3;
+  }
+  
+  .devolucion-container p {
+    color: green;
+    font-weight: bold;
+  }
+  

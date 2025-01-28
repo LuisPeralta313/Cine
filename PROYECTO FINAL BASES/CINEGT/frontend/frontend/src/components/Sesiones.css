@@ -1,0 +1,73 @@
+/* Sesiones.css */
+
+.sesiones-container {
+    padding: 20px;
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .sesiones-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .sesion-card {
+    background-color: #f8f9fa;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    width: 250px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+  }
+  
+  .sesion-card h3 {
+    margin-top: 0;
+    color: #333;
+  }
+  
+  .sesion-card p {
+    margin: 5px 0;
+    color: #555;
+  }
+  
+  .error-message {
+    color: red;
+    font-weight: bold;
+  }
+  
+  .back-to-home-button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #14cd23;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .back-to-home-button:hover {
+    background-color: #03a610;
+  }
+
+  .manual-load-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #96a728;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .manual-load-button:hover {
+    background-color: #698821;
+  }
+  
+  
+  

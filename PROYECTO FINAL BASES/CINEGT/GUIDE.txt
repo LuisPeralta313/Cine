@@ -1,0 +1,10 @@
+# Backend (abrir la terminal en la carpeta backend para las instalaciones)
+npm install express mssql cors dotenv multer axios
+
+# Frontend (abrir la terminal en la carpeta frontend (la segunda) para las instalaciones)
+npm install axios react-router-dom
+
+2start
+front -> hay dos carpetas llamadas frontend, para ejecutar hay que entrar hasta la segunda donde estan las carpetas raiz, se abre la terminal y se ejecuta npm start
+back -> (vs code) ejecturar index.js de backend
+ 

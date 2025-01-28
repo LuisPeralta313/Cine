@@ -1,0 +1,17 @@
+/* Home.css */
+
+.carousel {
+    max-width: 700px;     /* Ajusta el ancho máximo del carrusel */
+    max-height: 1200px;
+    margin: 20px auto;    /* Centra el carrusel */
+    border-radius: 8px;   /* Añade bordes redondeados al contenedor */
+    overflow: hidden;     /* Asegura que las imágenes no se salgan del contenedor */
+  }
+  
+  .carousel img {
+    width: 100%;          /* La imagen ocupa el ancho completo del contenedor */
+    height: 650px;        /* Define una altura específica para las imágenes */
+    object-fit: cover;    /* Asegura que la imagen se recorte para ajustarse sin deformarse */
+    border-radius: 8px;   /* Bordes redondeados */
+  }
+  

@@ -1,0 +1,68 @@
+.compra-container {
+    padding: 20px;
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  .compra-container h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .back-button {
+    margin-bottom: 15px;
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .back-button:hover {
+    background-color: #218838;
+  }
+  
+  .compra-container form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .compra-container label {
+    font-weight: bold;
+    color: #555;
+    text-align: left;
+  }
+  
+  .compra-container input[type="text"],
+  .compra-container input[type="number"],
+  .compra-container input[type="radio"] {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .compra-container button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .compra-container button:hover {
+    background-color: #0056b3;
+  }
+  
+  .compra-container p {
+    color: green;
+    font-weight: bold;
+  }
+  
